@@ -1,0 +1,26 @@
+Software Version: 2022.1.0.10
+Opened '/media/sl/app/Libero/mpf_an4597_v2022p1_df/TCL_Scripts/Eval_Kit/Libero_Project/designer/top/top_fp/top.pro'
+PDB file '/media/sl/app/Libero/mpf_an4597_v2022p1_df/TCL_Scripts/Eval_Kit/Libero_Project/designer/top/top.pdb' has been loaded successfully.
+DESIGN : top;  CHECKSUM : 871F;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder '/media/sl/app/Libero/mpf_an4597_v2022p1_df/TCL_Scripts/Eval_Kit/Libero_Project/designer/top/export/top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: '/media/sl/app/Libero/mpf_an4597_v2022p1_df/TCL_Scripts/Eval_Kit/Libero_Project/designer/top/export/top.ppd'; file programs Fabric and sNVM.
+BITS component bitstream digest: e628346f15f57b0bb57f2a9a7ba39a841126caa067b4873fa03d218c2fd0001c
+Fabric component bitstream digest: ca91df43cdc4cca28d1fe7eccb55b00324986ec83f07def0446c28c2dab47341
+sNVM component bitstream digest: eb02da9b9adaec3b0269d8e0fa36c3a445aef1d370f8e4707d1eb875e79e5a91
+EOB component bitstream digest: d9af60f51ddb27c0f994254938f903e2889ef9a4773fe1ab4973643dbdaf2069
+Entire bitstream digest: f05f1458a8d9bfafa8deb58d7a7158e1413424bb6289997ed3af3eb3a02a6b55
+Finished: Thu Jan  2 11:10:24 2025 (Elapsed time 00:00:34)
+
+Info: Programming Interface selected is JTAG.
+File/Folder '/media/sl/app/Libero/mpf_an4597_v2022p1_df/TCL_Scripts/Eval_Kit/Libero_Project/designer/top/export/top.dat' will be overwritten.
+Successfully exported DirectC file: '/media/sl/app/Libero/mpf_an4597_v2022p1_df/TCL_Scripts/Eval_Kit/Libero_Project/designer/top/export/top.dat'; file programs Fabric and sNVM.
+BITS component bitstream digest: e628346f15f57b0bb57f2a9a7ba39a841126caa067b4873fa03d218c2fd0001c
+Fabric component bitstream digest: ca91df43cdc4cca28d1fe7eccb55b00324986ec83f07def0446c28c2dab47341
+sNVM component bitstream digest: eb02da9b9adaec3b0269d8e0fa36c3a445aef1d370f8e4707d1eb875e79e5a91
+EOB component bitstream digest: d9af60f51ddb27c0f994254938f903e2889ef9a4773fe1ab4973643dbdaf2069
+Entire bitstream digest: f05f1458a8d9bfafa8deb58d7a7158e1413424bb6289997ed3af3eb3a02a6b55
+Finished: Thu Jan  2 11:10:54 2025 (Elapsed time 00:00:30)
+
+Project saved.
+Project closed.
