@@ -1,0 +1,150 @@
+{
+	//文件注释 ctrl+h+h
+	//函数注释 ctrl+m+m
+	// "editor.fontFamily": "'Monaspace Neon', monospace",
+	// "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+	"editor.fontLigatures": true,
+	"editor.tabSize": 4,
+	// "editor.insertSpaces": false,
+	// "editor.detectIndentation": false,
+	"editor.mouseWheelZoom": true,
+	"editor.fontSize": 16,
+	"editor.suggestSelection": "first",
+	"terminal.integrated.fontSize": 16,
+	// "terminal.integrated.fontFamily": "monospace",
+	"terminal.integrated.letterSpacing": 1,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.editor.enablePreview": false,
+	"material-icon-theme.folders.theme": "classic",
+	"debug.console.fontSize": 14,
+	"explorer.confirmDelete": false,
+	// "editor.tokenColorCustomizations": {
+	// 	"variables": "#DCDCDC",
+	// 	"functions": "#FF8000",
+	// 	"types": "#FFD700",
+	// 	"textMateRules": [
+	// 		{
+	// 			"scope": "keyword.control.systemverilog",
+	// 			"settings": {
+	// 				"foreground": "#569CD6"
+	// 			}
+	// 		}
+	// 	]
+	// },
+	"[cpp]": {
+		"editor.defaultFormatter": "xaver.clang-format"
+	},
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+	"C_Cpp.clang_format_sortIncludes": true,
+	// "C_Cpp.clang_format_path": "/home/xtt/.vscode/extensions/ms-vscode.cpptools-1.5.1/LLVM/bin/clang-format",
+	"C_Cpp.clang_format_fallbackStyle": "LLVM",
+	"C_Cpp.default.cppStandard": "c++20",
+	"C_Cpp.default.cStandard": "c11",
+	"C_Cpp.formatting": "clangFormat",
+	"clang-format.language.cpp.enable": true,
+	"clang-format.language.c.enable": true,
+	"clang-format.language.cpp.style": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Linux, AllowShortIfStatementsOnASingleLine: true, IndentCaseLabels: true, ColumnLimit: 0, AccessModifierOffset: -2,NamespaceIndentation: All}",
+	"C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Linux, AllowShortIfStatementsOnASingleLine: true, IndentCaseLabels: true, ColumnLimit: 0, AccessModifierOffset: -2,NamespaceIndentation: All}",
+	"clang-format.style": "LLVM",
+	// "clang-format.language.c.style": "LLVM",
+	"editor.formatOnSave": false,
+	"editor.largeFileOptimizations": false,
+	// "editor.defaultFormatter": "xaver.clang-format",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"vsintellicode.features.python.deepLearning": "enabled",
+	"python.languageServer": "Jedi",
+	"python.defaultInterpreterPath": "C:\\Users\\taotao.xu\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+	"code-runner.runInTerminal": false,
+	"code-runner.fileDirectoryAsCwd": true,
+	"code-runner.executorMap": {
+		"python": "usr/bin/python3"
+	},
+	"python.analysis.completeFunctionParens": true,
+	"cmake.configureOnEdit": false,
+	"cmake.configureOnOpen": true,
+	"cmake.generator": "Unix Makefiles",
+	"cmake.showOptionsMovedNotification": false,
+	"makefile.configureAfterCommand": false,
+	"makefile.configureOnEdit": false,
+	"makefile.configureOnOpen": false,
+	// "verilog.linting.linter": "verilator",
+	"verilog.linting.linter": "xvlog",
+	"systemverilogFormatter.veribleBuild": "win64",
+	"[verilog]": {
+		// "editor.defaultFormatter": "bmpenuelas.systemverilog-formatter-vscode"
+        "editor.defaultFormatter": "eirikpre.systemverilog"
+		// "defa"
+		// "editor.defaultFormatter": "C:\Users\taotao.xu\.vscode\extensions\bmpenuelas.systemverilog-formatter-vscode-2.16.4\verible_release\win64.zip\verible-v0.0-2080-gc9674d91-win64\bin\verible-verilog-format.exe"
+	},
+	// "systemverilogFormatter.commandLineArguments": "--column_limit=300 --indentation_spaces=2 --wrap_spaces=2 --assignment_statement_alignment=align --named_port_alignment=align  --port_declarations_alignment=align --module_net_variable_alignment=align",
+	"systemverilogFormatter.commandLineArguments": "--column_limit=300 --indentation_spaces=4 --wrap_spaces=4",
+	// "systemverilogFormatter.commandLineArguments": "--indentation_spaces=4 --named_port_alignment=align --module_net_variable_alignment=align",
+	// "verilog.formatting.veribleVerilogFormatter.arguments": "\"--column_limit=300 --indentation_spaces=2 --wrap_spaces=2 --assignment_statement_alignment=align --named_port_alignment=align  --port_declarations_alignment=align --module_net_variable_alignment=align\"",
+	"verilog.formatting.verilogHDL.formatter": "verible-verilog-format",
+	"[systemverilog]": {
+		// "editor.defaultFormatter": "bmpenuelas.systemverilog-formatter-vscode"
+        "editor.defaultFormatter": "eirikpre.systemverilog"
+	},
+	// "verilog.ctags.path": "C:/Users/taotao.xu/Documents/ctag",
+	// "ctags-companion.command": "ctags -R --fields=+nKz -f .tags --langmap=SystemVerilog:+.v",
+	// "ctags-companion.readtagsGoToDefinitionCommand": "readtags -t .tags -en",
+	// "ctags-companion.readtagsGoToSymbolInWorkspaceCommand": "readtags -t .tags -enpi",
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"verilog.linting.path": "C:\\Xilinx\\Vivado\\2020.1\\bin",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": true,
+    
+    
+    "remote.SSH.remotePlatform": {
+        "10.20.64.209": "linux"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+	// "editor.tabSize": 4
+	// "terminal.integrated.fontFamily": "monospace"
+	// "verilog.linting.verilator.arguments": "-lint-only -Wall -I$PWD/lib/axis/rtl -I$PWD/rtl"
+
+    //-------------------------system verilog setting----------------------------------
+    "systemverilog.excludeIndexing": "**/bd,synth,ip/**",
+    // "editor.bracketPairColorization.enabled": true, // turn on bracket pair coloring
+    // Change theme default colors for specific tokens
+    // To find tokens use: https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector
+    "editor.tokenColorCustomizations": {
+      // Customize per theme or globally
+    //   "[Theme Name]": {
+        "textMateRules": [
+          {
+            // Workaround: Extension marks escaped identifiers as regular expressions to prevent bracket matching,
+            //             so recoloring it back to identifier color
+            "scope": ["string.regexp.identifier.systemverilog"],
+            "settings": {
+            //   "foreground": "#e06c75"
+              "foreground": "#569CD6"
+            }
+          }
+        ],
+    //   },
+      "variables": "#DCDCDC",
+      "functions": "#FF8000",
+      "types": "#FFD700"
+    },
+    // Customize formatting command to suite preferences
+    // "systemverilog.formatCommand": "verible-verilog-format --assignment_statement_alignment=preserve --case_items_alignment=infer --class_member_variable_alignment=infer --formal_parameters_alignment=preserve --formal_parameters_indentation=indent --named_parameter_alignment=flush-left --named_parameter_indentation=indent --named_port_alignment=flush-left --named_port_indentation=indent --module_net_variable_alignment=preserve --port_declarations_alignment=preserve --port_declarations_indentation=indent",
+    "systemverilog.formatCommand": "verible-verilog-format --column_limit=300 --wrap_spaces=4 --indentation_spaces=4 --assignment_statement_alignment=align --named_port_alignment=align --port_declarations_alignment=align --module_net_variable_alignment=align --named_parameter_alignment=align",
+    // Add additional file extensions to associate with SystemVerilog and include them in the indexing
+    "files.associations": {
+      "*.svi": "systemverilog",
+      "*.svp": "systemverilog",
+      "*.pkg": "systemverilog"
+    },
+    "systemverilog.includeIndexing": [
+        "**/*.{sv,v,svh,vh,svi,svp,pkg}"
+    ],
+    "files.eol": "\n"
+
+}
